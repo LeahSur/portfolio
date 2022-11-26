@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.menu-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    margin: 20px 0px;
+}
+
+.port-link {
+    margin-right: 28px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.port-link:hover {
+    color: rgb(168, 182, 193);
+    font-size: 21px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.header-title {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 130%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    letter-spacing: 0.08em; /*расстояние между буквами*/
+
+}
+
+.family {
+    margin: 7% 60%;
+    width: 40%;
+}
+
+.header-subtitle {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.2em; /*расстояние между буквами*/
+    line-height: 170%;
+    text-transform: uppercase; /*заглавные */
+    color: rgb(255, 255, 255);
+}
+/*Заголовки */
+.header-header {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.m-skills-head {
+    margin: 5%;
+}
+
+/* Скиллы */
+.skills {
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    margin: 10%;
+}
+
+.text-skills {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.img-skills {
+    height: 150px;
+    width: 150px;
+    border: 3px double black;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.img-skills:hover {
+    opacity: 0.7;
+    border: 4px double rgb(27, 32, 108);
+}
+
+/*Порфолио*/
+.portfolio {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-work {
+    margin: 5%;
+}
+
+.text-port {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    margin: 0px;
+
+}
+.port-heading {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cart-port {
+    height: 350px;
+    width: 450px;
+    border-radius: 10%;
+    border: 3px double rgb(28, 32, 70);
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.screen :hover {
+    opacity: 0.9;
+}
+
+.screen {
+    margin-right: 10%;
+}
+
+.about-work {
+    margin: 10% 0%;
+}
+
+.work-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+}
+
+.m-work-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+
+/* Обо мне */
+
+.about-me {
+    width: 100%;
+    height: 100vh;
+}
+
+.about-1 {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.ab-text {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+
+}
+.text-ab {
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+
+.photo-me {
+    width: 520px;
+    height: 430px;
+    border-radius: 40%;
+    border: 2px double rgb(184, 111, 111);
+}
+
+.image-me {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    
+}
+
